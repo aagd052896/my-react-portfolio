@@ -1,0 +1,117 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header Section with Cool Image */
+header {
+  background: url('https://img.freepik.com/free-vector/neon-lined-pattern-dark-background-vector_53876-173383.jpg?t=st=1734588871~exp=1734592471~hmac=8e4e91a3c09e527c5183a077452c0b5294ebeb1f9187960d0231ace74896c552&w=740') no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);  /* Dark overlay for readability */
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+header p {
+  font-size: 1.5em;
+  z-index: 1;
+}
+
+/* Section Styling */
+section {
+  padding: 40px 0;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 2.5em;
+  color: #3c8dbc;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+/* Skills and Achievements Section */
+.skills ul {
+  padding-left: 20px;
+}
+
+.skills li {
+  margin-bottom: 15px;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+.contact .email-link {
+  text-decoration: none;
+  color: white;
+  background-color: #3c8dbc;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+.contact .email-link:hover {
+  background-color: #2c6a8a;
+}
+
+/* Footer */
+footer {
+  background-color: #3c8dbc;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 1em;
+}
